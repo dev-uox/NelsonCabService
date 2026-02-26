@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Nelson Cab Service</title>
+    <style>
+      .logo {
+        width: 94px;
+        height: auto;
+      }
+    </style>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="popupOverlay">
+      <div id="popupBox">
+        <h2>Welcome!</h2>
+        <p>
+          Currently, we are closed. For any queries, please contact us at
+          <span style="color: blue">cab@encoretitlesvc.cloud</span>. Co-Managed
+          By <span style="color: red"> Vahlay Consulting Inc</span>
+        </p>
+        <button onclick="closePopup()">Close</button>
+      </div>
+    </div>
+    <div class="hero_area">
+      <!-- header section strats -->
+      <header class="header_section">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container">
+            <a class="navbar-brand" href="index.html">
+              <img src="./images/NELSON LOGO.png" alt="" class="logo" />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div
+                class="d-flex ml-auto flex-column flex-lg-row align-items-center"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"> About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.html"> Services </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="news.html"> News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- end header section -->
+      <!-- slider section -->
+      <section class="slider_section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="box">
+                <div class="detail-box">
+                  <h4>Welcome to</h4>
+                  <h1>Nelson Cab Service</h1>
+                </div>
+                <div
+                  id="carouselExampleIndicators"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <ol class="carousel-indicators">
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="0"
+                      class="active"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="1"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="2"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="3"
+                    ></li>
+                    <li
+                      data-target="#carouselExampleIndicators"
+                      data-slide-to="4"
+                    ></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="img-box">
+                        <img src="images/slider-img.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-box">
+                        <img src="images/slider-img.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-box">
+                        <img src="images/slider-img.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-box">
+                        <img src="images/slider-img.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-box">
+                        <img src="images/slider-img.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-5">
+              <div class="slider_form">
+                <h4>Get A Taxi Now</h4>
+                <form action="">
+                  <input type="text" placeholder="Car Type" />
+                  <input type="text" placeholder="Pick Up Location" />
+                  <input type="text" placeholder="Drop Location" />
+                  <div class="btm_input">
+                    <input type="text" placeholder="Your Phone Number" />
+                    <button>Book Now</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end slider section -->
+    </div>
+
+    <!-- about section -->
+
+    <section class="about_section layout_padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-5 offset-lg-2 offset-md-1">
+            <div class="detail-box">
+              <h2>
+                About <br />
+                Taxi Company
+              </h2>
+              <p>
+                At Nelson Taxi Company, we believe getting from point A to point
+                B should be safe, simple, and stress-free. With over a decade of
+                experience, we’ve built our reputation on punctuality,
+                professionalism, and clean, comfortable vehicles.
+              </p>
+              <p>
+                Whether you're heading to the airport, commuting to work, or
+                enjoying a night out, our licensed drivers are here 24/7 to get
+                you where you need to go — on time, every time.
+              </p>
+              <p>
+                We’re more than just a ride — we’re your local travel partner,
+                committed to excellent service and customer satisfaction.
+                Discover why thousands of riders choose Nelson Taxi every day.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/about-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end about section -->
+
+    <!-- service section -->
+
+    <section class="service_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Our <br />
+            Taxi Services
+          </h2>
+        </div>
+        <div class="service_container row">
+          <div class="box col-md-4 text-center mb-4">
+            <div class="img-box mb-3">
+              <img src="images/delivery-man.png" alt="Private Driver" />
+            </div>
+            <div class="detail-box">
+              <h5>Private Driver</h5>
+              <p>
+                Enjoy a personalized driving experience with our professional
+                drivers. Ideal for business trips, city tours, and hourly hires,
+                ensuring comfort and convenience every mile.
+              </p>
+            </div>
+          </div>
+          <div class="box col-md-4 text-center mb-4">
+            <div class="img-box mb-3">
+              <img src="images/airplane.png" alt="Airport Transfer" />
+            </div>
+            <div class="detail-box">
+              <h5>Airport Transfer</h5>
+              <p>
+                Start or end your journey stress-free with our timely airport
+                transfers. We monitor flight schedules for punctual pick-ups and
+                drop-offs, so you never miss a flight.
+              </p>
+            </div>
+          </div>
+          <div class="box col-md-4 text-center mb-4">
+            <div class="img-box mb-3">
+              <img src="images/backpack.png" alt="Luggage Transfer" />
+            </div>
+            <div class="detail-box">
+              <h5>Luggage Transfer</h5>
+              <p>
+                Need to ship heavy luggage or parcels? Our secure luggage
+                transfer service transports your items safely to any
+                destination, saving you time and effort.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end service section -->
+
+    <!-- news section -->
+
+    <section class="news_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Our <br />
+            News
+          </h2>
+        </div>
+        <div class="news_container">
+          <div class="box">
+            <div class="date-box">
+              <h6>29 june 2019</h6>
+            </div>
+            <div class="img-box">
+              <img src="images/news-img.jpg" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5 class="card-title">Grand Opening of Our New Office</h5>
+              <p class="card-text">
+                we celebrated the grand opening of our
+                brand-new headquarters located in the heart of the city’s
+                bustling downtown district. This milestone event marked a
+                significant expansion for the company, reflecting our commitment
+                to growth and enhanced customer service.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="date-box">
+              <h6>30 Nov 2021</h6>
+            </div>
+            <div class="img-box">
+              <img src="images/news-img.jpg" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5 class="card-title">Expansion of Taxi Fleet</h5>
+              <p class="card-text">
+                To accommodate increasing demand and ensure superior service
+                quality,  we proudly expanded our taxi fleet
+                with the addition of fifty new vehicles. This strategic
+                enhancement includes a diverse range of models—from luxurious
+                sedans designed for executive travel to environmentally friendly
+                hybrid cars that minimize carbon emissions.
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="date-box">
+              <h6>10 july 2022</h6>
+            </div>
+            <div class="img-box">
+              <img src="images/news-img.jpg" alt="" />
+            </div>
+            <div class="detail-box">
+              <h5 class="card-title">Best Service Provider Award</h5>
+              <p class="card-text">
+                 we were honored to receive the prestigious
+                "Best Service Provider 2025" award in recognition of our
+                unwavering dedication to customer satisfaction and operational
+                excellence. This accolade, presented by the National
+                Transportation Association, underscores our team’s relentless
+                efforts to deliver safe, efficient, and courteous taxi services
+                day in and day out.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end news section -->
+
+    <!-- client section -->
+
+    <section class="client_section layout_padding-bottom">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            What <br />
+            Clients <br />
+            Say
+          </h2>
+        </div>
+        <div class="client_container">
+          <div class="carousel-wrap">
+            <div class="owl-carousel">
+              <div class="item">
+                <div class="box">
+                  <div class="img-box"></div>
+                  <div class="detail-box">
+                    <h3>Emily Parker</h3>
+                    <p>
+                      Nelson Taxi has been absolutely reliable every time I’ve
+                      booked with them. The drivers are friendly, on time, and
+                      the cars are always spotless. Highly recommended!
+                    </p>
+                    <img src="images/quote.png" alt="quote icon" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="box">
+                  <div class="img-box"></div>
+                  <div class="detail-box">
+                    <h3>James Cooper</h3>
+                    <p>
+                      I use Nelson Taxi for my daily commute to the office. The
+                      service is consistent and the drivers are always
+                      respectful and helpful. Excellent experience overall!
+                    </p>
+                    <img src="images/quote.png" alt="quote icon" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="box">
+                  <div class="img-box"></div>
+                  <div class="detail-box">
+                    <h3>Olivia Mitchell</h3>
+                    <p>
+                      I was impressed by how professional and courteous the
+                      driver was. I felt safe and comfortable throughout the
+                      journey. Nelson Taxi is now my go-to service.
+                    </p>
+                    <img src="images/quote.png" alt="quote icon" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="box">
+                  <div class="img-box"></div>
+                  <div class="detail-box">
+                    <h3>Daniel Wright</h3>
+                    <p>
+                      I had to book a ride for a business meeting in a new city.
+                      The driver was knowledgeable, polite, and got me to my
+                      destination on time. Great first impression!
+                    </p>
+                    <img src="images/quote.png" alt="quote icon" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end client section -->
+
+    <!-- contact section -->
+
+    <section class="contact_section layout_padding-bottom">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Any Problems <br />
+            Any Questions
+          </h2>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-5 offset-md-1">
+            <div class="contact_form">
+              <h4>Get In touch</h4>
+              <form action="">
+                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Phone Number" />
+                <input
+                  type="text"
+                  placeholder="Message"
+                  class="message_input"
+                />
+                <button>Send</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 px-0">
+            <div class="img-box">
+              <img src="images/contact-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact section -->
+
+    <!-- app section -->
+
+    <!-- <section class="app_section layout_padding2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="detail-box">
+              <h2>Download Our app</h2>
+              <div class="text-box">
+                <h5>details</h5>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when distribution of letters
+                </p>
+              </div>
+              <div class="text-box">
+                <h5>How it works</h5>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when distribution of letters
+                </p>
+              </div>
+              <div class="btn-box">
+                <a href="">
+                  <img src="images/playstore.png" alt="" />
+                </a>
+                <a href="">
+                  <img src="images/appstore.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/mobile.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- end app section -->
+
+    <!-- why section -->
+
+    <section class="why_section layout_padding">
+      <div class="container">
+        <div class="heading_container">
+          <h2>
+            Why <br />
+            Choose Us
+          </h2>
+        </div>
+        <div class="why_container">
+          <div class="box">
+            <div class="img-box">
+              <img src="images/delivery-man-white.png" alt="" class="img-1" />
+              <img src="images/delivery-man-black.png" alt="" class="img-2" />
+            </div>
+            <div class="detail-box">
+              <h5>Best Drivers</h5>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img src="images/shield-white.png" alt="" class="img-1" />
+              <img src="images/shield-black.png" alt="" class="img-2" />
+            </div>
+            <div class="detail-box">
+              <h5>Safe and Secure</h5>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <div class="img-box">
+              <img
+                src="images/repairing-service-white.png"
+                alt=""
+                class="img-1"
+              />
+              <img
+                src="images/repairing-service-black.png"
+                alt=""
+                class="img-2"
+              />
+            </div>
+            <div class="detail-box">
+              <h5>24x7 support</h5>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end why section -->
+
+    <!-- info section -->
+
+    <section class="info_section layout_padding-top layout_padding2-bottom">
+      <div class="container">
+        <div class="box">
+          <div class="info_form">
+            <h4>Subscribe Our Newsletter</h4>
+            <form action="">
+              <input type="text" placeholder="Enter your email" />
+              <div class="d-flex justify-content-end">
+                <button></button>
+              </div>
+            </form>
+          </div>
+          <div class="info_links">
+            <ul>
+              <li class=" ">
+                <a class="" href="index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="">
+                <a class="" href="about.html"> About</a>
+              </li>
+              <li class="">
+                <a class="" href="service.html"> Services </a>
+              </li>
+              <li class="">
+                <a class="" href="news.html"> News</a>
+              </li>
+              <li class="">
+                <a class="" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="info_social">
+            <h4>
+              Email Us:
+              <a href="mailto:cab@encoretitlesvc.cloud"
+                >cab@encoretitlesvc.cloud</a
+              >
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end info section -->
+
+    <!-- footer section -->
+    <section class="container-fluid footer_section">
+      <div class="container">
+        <p style="color: white; font-weight: 600">
+          Co-Managed By Vahlay Consulting Inc
+        </p>
+      </div>
+    </section>
+    <!-- footer section -->
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    ></script>
+
+    <!-- owl carousel script -->
+    <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 20,
+        navText: [],
+        autoplay: true,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          768: {
+            items: 2,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
+    <script>
+      // Show popup on page load
+      window.onload = function () {
+        document.getElementById("popupOverlay").style.display = "flex";
+      };
+
+      function closePopup() {
+        document.getElementById("popupOverlay").style.display = "none";
+      }
+    </script>
+    <!-- end owl carousel script -->
+  </body>
+</html>
